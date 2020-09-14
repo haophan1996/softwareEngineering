@@ -1,0 +1,2 @@
+Hello, my name is Hao Phan
+This is my repo https://github.com/haophan1996/softwareEngineering
