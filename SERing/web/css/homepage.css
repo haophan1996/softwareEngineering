@@ -1,0 +1,525 @@
+
+
+body {
+    min-height: 100vh;
+    background-color: white; /* Default browser not supporting*/
+    padding-bottom: 100px;
+}
+
+
+/* styling our header */
+
+.header {
+    padding: 10px 10px;
+    text-align: left;
+    background: #4655f7;
+    color: white;
+    font-size: 20px;
+    height: auto;
+    margin-bottom: 1px;
+    width: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+
+}
+
+.header a{
+    background: #4655f7;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding:   2px 2px;
+    border-radius: 1px;
+    transition: 0.3s ease all;
+    display: inline-block;
+
+}
+.header a:hover{
+    background: #444;
+
+}
+.header h1{
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0.1px;
+    margin-top: 0;
+    display: inline-block;
+}
+.header h3{
+    margin-top: 0.5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:black;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+/*drop down button on for edit button*/
+  
+.dropdown .dropbtn {
+    width: 120px;
+	height: 30px;
+	border-radius: 5px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: White;
+    background-color: rgb(113, 113, 196);
+    margin-right: 10px ;
+    text-align: center;
+
+}
+ .dropdown {
+    float: right;
+    position: relative;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: white;
+    width: 120px;
+	height: 30px;
+	border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(113, 113, 196);
+    display: block;
+    text-align: left;
+}
+  
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* main navigation */
+
+nav {
+    float: right;
+    margin-bottom: 20px;
+}
+
+nav ul   {
+    list-style: none;
+    margin-right: 0;
+    margin-left:0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+nav ul li a    {
+    color: #FFF;
+    text-decoration: none;
+    background-color: blue;
+    display: block;
+    padding: 40px 30px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+    background: #444;
+}
+
+
+
+/* styling our panelheader */
+
+
+.panelheader{
+    text-align: left;
+    padding: 5px 15px;
+    background: #adce6f;
+    color: white;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 2px solid grey;
+
+
+}
+.panelheader h1{
+    color: rgb(235, 252, 2);
+    font-family: sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.1px;
+    margin-top: 0px;
+}
+.panelheader h2{
+    color: rgb(235, 252, 2);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.1px;
+}
+
+/* styling our panelheader */
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin-top: 10px;
+
+}
+.wrapper >*{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px ;
+    background-size: over;
+    border: 2px solid rgb(20, 19, 19);
+}
+.row button{
+    width: 120px;
+	height: 30px;
+	border-radius: 5px;
+    border:none;
+    color: White;
+    background-color: rgb(113, 113, 196);
+    float: right;
+    margin-right: 10px;
+}
+
+.row button:hover{
+    background-color: #555;
+    color: white;
+}
+
+
+/* styling our panelbody */
+
+.row label{
+    line-height: 0;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-weight: bold;
+    
+}
+
+.row input{
+    border:none;
+    outline: none;
+    height: auto;
+    width: auto;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+/* styling our main content */
+footer   {
+    color: #777;
+    border: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position:  fixed;
+}
+
+h1{
+    color: blueviolet;
+    font-family: sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color:  #1639ff;
+    font-size: 14;
+}
+
+
+
+
+/* styling our TimeSlot.html */
+
+.TimeSlice{
+    width: 250px;
+    height: auto;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TimeSlice input{
+    border:none;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+.TimeSlice{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.TimeSlice img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.TimeSlice button{
+	width: 220px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	background-color: #1639ff;
+	color: white;
+}
+.StartTime label{
+    color: black;
+    padding: 8px;
+    
+}
+.StartTime input,label{
+    width: 6.5rem ;
+    margin: 1rem 0;
+}
+.EndTime label{
+    color: black;
+    padding: 8px;
+}
+.EndTime input,label{
+    width: 6.5rem ;
+    margin: 1rem 0;
+}
+
+
+/* styling our Session.html */
+.SessionAdd{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.SessionAdd button{
+	width: 220px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	background-color: #1639ff;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.SessionAdd button:hover{
+    background-color: rgb(7, 171, 247);
+}
+.SessionAdd button:active{
+    background-color: #167bff;
+}
+.SessionAddinput img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.SessionAddinput input{
+    border:none;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.SessionAddinput{
+    width: 250px;
+    height: auto;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Session{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.Session button{
+	width: 220px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	background-color: #1639ff;
+	color: white;
+}
+.Session button:hover{
+    background-color: rgb(7, 171, 247);
+}
+.Session button:active{
+    background-color: #167bff;
+}
+.Sessioninput img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.Sessioninput input{
+    border:none;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.Sessioninput{
+    width: 250px;
+    height: auto;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* styling our Speaker */
+
+
+.Speaker{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.Speaker button{
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	background-color: #1639ff;
+    color: white;
+}
+
+
+
+.Speaker button:hover{
+    background-color: rgb(7, 171, 247);
+}
+.Speaker button:active{
+    background-color: #167bff;
+}
+.Speakerinput img{
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+.Speakerinput input{
+    border:none;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.Speakerinput{
+    width: 250px;
+    height: auto;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#confirm {
+    display: none;
+    background-color: #91FF00;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 250px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 6px 8px 8px;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ #confirm button {
+    background-color: #48E5DA;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+ }
+ #confirm .message {
+    text-align: left;
+ }
